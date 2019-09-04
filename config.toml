@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://shenoybr.github.io/"
+baseurl = "https://wizardly-pike-2ea589.netlify.com/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
