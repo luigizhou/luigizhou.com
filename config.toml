@@ -9,8 +9,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Erlich Bachman"
-title = "Erlich Bachman"
+author = "Luigi Zhou"
+title = "Luigi Zhou"
 
 theme = "hugo-goa"
 
@@ -21,9 +21,9 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Erlich Bachman"
-intro = "Startup Guru Extraordinaire"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+author = "Luigi Zhou"
+intro = "Site Reliability Engineer - DevOps Practitioner"
+description = "Currently Working at @Hotels.com"
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -69,7 +69,7 @@ email = "you@example.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2019. Luigi Zhou. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true
