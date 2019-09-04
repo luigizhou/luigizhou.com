@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://luigizhou.com"
+baseurl = "https://luigizhou.com/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -15,7 +15,7 @@ title = "Erlich Bachman"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
