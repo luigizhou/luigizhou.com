@@ -1,92 +1,55 @@
-## Basic Configuration
-
 baseurl = "https://luigizhou.com/"
-builddrafts = false
-canonifyurls = false
-languageCode = "en-US"
-
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-
-author = "Luigi Zhou"
 title = "Luigi Zhou"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
 
-theme = "hugo-goa"
+[taxonomies]
+  series = "series"
 
-## Hugo Built-in Features
-#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-# googleAnalytics = "XYZ"
-enableRobotsTXT = true
-
-## Site Settings
 [params]
-author = "Luigi Zhou"
-intro = "Site Reliability Engineer - DevOps Practitioner"
-description = "Currently Working at @Hotels.com"
-authorimage = "headshot.jpg"
-dateformat = "Jan 2, 2006"
+    author = "Luigi Zhou"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    description = """
+    Website in construction
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
 
-## Site Meta Settings
-[params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+[outputs]
+    section = ["JSON", "HTML"]
 
-## Social Accounts
-[params.social]
-github = "<username>"
-instagram = "<username>"
-xing = "<username>"
-linkedin = "<username>"
-twitter = "<username>"
-facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
-lastfm = "<username>"
-goodreads = "<username>"
-gitlab = "<username>"
-bitbucket = "<username>"
-fivehundredpx = "<username>"
-flickr = "<username>"
-foursquare = "<username>"
-hackernews = "<username>"
-kickstarter = "<username>"
-patreon = "<username>"
-pintrest = "<username>"
-steam = "<username>"
-reddit = "<username>"
-snapchat = "<username>"
-youtube = "<username>"
-keybase = "<username>"
-twitch = "<username>"
-soundcloud = "<username>"
-tumblr = "<username>"
-strava = "<username>"
-skype = "<username>"
-telegram = "<username>"
-whatsapp = "<username>"
-email = "you@example.com"
-
-## Extras
-[params.extra]
-copyright = "© 2019. Luigi Zhou. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
-poweredby = true
-highlightjs = true
-socialmarkup = true
-
-## Main Menu
 [[menu.main]]
-    name = "blog"
-    weight = 100
     identifier = "blog"
+    # name = "Blog" #If display text link, cancel comment out
+    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
     url = "/blog/"
+    weight = 10
+
 [[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/luigizhou"
+    weight = 20
+
 [[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/luigizhou"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:luigi.zhou@outlook.com"
+    weight = 40
