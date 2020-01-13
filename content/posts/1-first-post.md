@@ -1,10 +1,10 @@
-+++
-date = "2019-09-19"
-title = "The beginning of something good"
-slug = "beginning-something-good"
-tags = []
-categories = []
-+++
+---
+date: "2019-09-19"
+title: "The beginning of something good"
+slug: "beginning-something-good"
+tags: []
+categories: [random]
+---
 
 
 I've been meaning to start a blog/diary on tech and myself for a long time now and I hope this can become something I can look back to with nostalgia..
