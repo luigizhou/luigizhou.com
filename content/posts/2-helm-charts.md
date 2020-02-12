@@ -83,4 +83,4 @@ I previously mentioned how Helm approach was "non-purist", but I learned over ti
 Although I wrote more about the bad instead of the good, Helm still comes out on top as the tool to use for deployment in Kubernetes. There is no valid alternative at the moment and so far it's the best way to properly package and standardise your deployment.
 
 It could be further polished, which is what all of the "bad things" I described are all about, but overall it's pretty good.
-This is, of course, coming out of a 2-week experience with Helm so I could change my mind in the future (which I will, of course, write about in this blog) but for what I see, there's the only improvement that can come so I don't think I will.
+This is, of course, coming out of a 2-week experience with Helm so I could change my mind in the future (which I will, of course, write about in this blog) but for what I see, the tool can only improvement so I don't think I will.
