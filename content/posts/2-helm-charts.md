@@ -30,14 +30,6 @@ This was incredibly liberating since it was my biggest concern with the tool so 
 
 Helm templating was anyway a great feature you could use if you didn't want tiller in your cluster and many people were using it that way, but because my work on Kubernetes was more project focused I never had a big need for it until quite recently.
 
-## The good things 
-
-Helm is an incredible tool that in my opinion fits quite well with the Kubernetes world.
-
-It enables you to create reusable deployments, package it and share it within the company or the community. I also believe it is the only tool so far that makes this possible without having to write additional scripts.
-
-I previously mentioned how Helm approach was "non-purist", but I learned over time that in real-world scenario it can be quite difficult to have the time to implement the necessary logic to make the application smarter. Sometimes it's just difficult to convince management that it is worth the time, and sometimes it's just not that trivial. That's why the dependency management of Helm comes out as a winner since the outcome is faster implementation and delivery to production.
-
 ## The bad things
 
 Finally getting started with Helm proved to be more difficult than I hoped.
@@ -76,6 +68,15 @@ This is not really on Helm, as I believe this is not available out of the box in
 This opinion comes from a heavy Terraform user, which is an incredible tool that gives you the ability to see what is going to happen before you push your infrastructure as code into production (or any other environment). It let me know what is going to change, which is a great way to double-check if I'm doing something wrong. 
 
 If Helm had a feature like that out of the box, I believe it could be the killer feature that would push the whole community to adopt helm as a standard for deployment in Kubernetes.
+
+## The good things 
+
+Helm is an incredible tool that in my opinion fits quite well with the Kubernetes world.
+
+It enables you to create reusable deployments, package it and share it within the company or the community. I also believe it is the only tool so far that makes this possible without having to write additional scripts.
+
+I previously mentioned how Helm approach was "non-purist", but I learned over time that in real-world scenario it can be quite difficult to have the time to implement the necessary logic to make the application smarter. Sometimes it's just difficult to convince management that it is worth the time, and sometimes it's just not that trivial. That's why the dependency management of Helm comes out as a winner since the outcome is faster implementation and delivery to production.
+
 
 ## Conclusion
 
