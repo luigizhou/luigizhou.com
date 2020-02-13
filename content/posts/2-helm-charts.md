@@ -4,6 +4,7 @@ title: "Helm Charts - My first clumsy attempt"
 slug: "helm-charts-attempt"
 tags: []
 categories: [tech, kubernetes, helm]
+comment: true
 ---
 
 ![Helm](/images/helm.png)
