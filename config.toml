@@ -29,7 +29,7 @@ slogan = "Find me on <a href='https://www.linkedin.com/in/luigizhou/' target='_b
 license = ""  # CC License
 
 [params.comments]
-enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
 [params.math]
 enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
