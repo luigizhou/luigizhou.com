@@ -9,7 +9,7 @@ hasCJKLanguage = true
 enableRobotsTXT = true
 
 # Enable Disqus
-#disqusShortname = "XXX"
+disqusShortname = "luigizhou-com"
 
 # Google Analytics
 googleAnalytics = "UA-156067555-1"
