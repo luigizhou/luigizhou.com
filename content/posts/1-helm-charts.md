@@ -1,6 +1,6 @@
 ---
 date: "2020-02-12"
-title: "Helm Charts - My first clumsy attempt"
+title: "Helm Charts V3"
 slug: "helm-charts-attempt"
 tags: []
 categories: [tech, kubernetes, helm]
