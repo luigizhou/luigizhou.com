@@ -1,7 +1,7 @@
 baseurl = "https://www.luigizhou.com" # Hostname (and path) to the root.
 title = "Luigi Zhou" # Site title.
 theme = "hugo-notepadium" # Set the theme.
-copyright = "©2020 - Luigi Zhou."
+copyright = "©2021 - Luigi Zhou."
 
 languageCode = "en-us"
 hasCJKLanguage = true
