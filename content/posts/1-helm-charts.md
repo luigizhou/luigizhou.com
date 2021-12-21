@@ -4,7 +4,7 @@ title: "Helm Charts V3"
 slug: "helm-charts-attempt"
 tags: []
 categories: [tech, kubernetes, helm]
-comments: true
+comments: false
 ---
 
 ![Helm](/images/helm.png)
