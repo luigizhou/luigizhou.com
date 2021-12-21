@@ -5,13 +5,13 @@
 <meta name="supported-color-schemes" content="light dark">
 
 {{- define "title" -}}
-    {{- $title := .Title -}}
-    {{- if and (ne $title "") (ne $title site.Title) -}}
-        <title>{{- $title | safeHTML -}} &nbsp;&ndash;&nbsp; {{- site.Title | safeHTML -}}</title>
-    {{- else -}}
-        {{- $slogan := site.Params.slogan -}}
-        <title>{{- site.Title | safeHTML -}} &nbsp;- Snr DevOps Engineer</title>
-    {{- end -}}
+{{- $title := .Title -}}
+{{- if and (ne $title "") (ne $title site.Title) -}}
+<title>{{- $title | safeHTML -}} &nbsp;&ndash;&nbsp; {{- site.Title | safeHTML -}}</title>
+{{- else -}}
+{{- $slogan := site.Params.slogan -}}
+<title>{{- site.Title | safeHTML -}} &nbsp;- Kubernetes Platform Engineer</title>
+{{- end -}}
 {{- end -}}
 
 {{- block "title" . -}}{{- end -}}
