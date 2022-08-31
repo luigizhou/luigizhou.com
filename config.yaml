@@ -1,0 +1,40 @@
+baseurl: 'https://www.luigizhou.com'
+title: Luigi Zhou
+theme: hugo-notepadium
+copyright: ©2022 - Luigi Zhou.
+languageCode: en-us
+hasCJKLanguage: true
+enableRobotsTXT: true
+disqusShortname: luigizhou-com
+googleAnalytics: UA-156067555-1
+markup:
+  highlight:
+    codeFences: true
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  style: auto
+  dateFormat: 'Monday, January 2, 2006'
+  logo: /images/avatar.jpg
+  slogan: >-
+    Find me on <a href='https://www.linkedin.com/in/luigizhou/'
+    target='_blank'>Linkedin</a> or <a href='https://twitter.com/LuigiZhou'
+    target='_blank'>Twitter</a>
+  license: ''
+  comments:
+    enable: false
+  math:
+    enable: false
+    use: katex
+  syntax:
+    use: none
+    theme: dracula
+    darkTheme: xcode-dark
+  nav:
+    showCategories: true
+    showTags: true
+    custom:
+      - title: About
+        url: /about
