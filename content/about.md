@@ -1,15 +1,18 @@
 ---
-title: "About Me"
-slug: "about"
-description: "about"
-date: 2019-09-17T09:05:48+01:00
+title: About Me
+slug: about
+description: about
+date: 2022-09-04T12:49:45.912Z
 ---
 
 ---------------------------
-Hello, my name is Luigi! Nice to meet you guys :)
-I work as a Senior DevOps Engineer and here's a few things about me.
+Hey All, I'm Luigi nice to meet ya!
+I work as Platform Engineer and here's a few things about me:
 
-I love working in IT and I'm passionate about what I do. Currently, I love working with Kubernetes, write Terraform and program in Golang when I can! 
 
-When I am not working (or studying), I enjoy a good movie, videogames and spending time with my family ;)
+I'm passionate about IT and tecnology, love Kubernetes and write golang/python whenever I have the chance.
+
+Discovered I love cycling so been doing that for a while now (you can find me on Strava, but I'm a very private person eheh).
+
+When I am not working or exploring new tech/hobbies, I enjoy a good movie, videogames and spending time with my family ;)
 
