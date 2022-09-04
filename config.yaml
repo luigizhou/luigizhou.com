@@ -1,5 +1,5 @@
 baseurl: 'https://www.luigizhou.com'
-title: Luigi Zhou
+title: Luigi Zhou's Blog on Linux, Kubernetes, Observability and more...
 theme: hugo-notepadium
 copyright: ©2022 - Luigi Zhou.
 languageCode: en-us
