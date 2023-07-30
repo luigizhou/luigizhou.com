@@ -5,7 +5,9 @@ date: 2023-07-30T16:56:56.499Z
 preview: ""
 draft: true
 tags: []
-categories: []
+categories: 
+- kubernetes
+- tech
 ---
 
 ## Introduction
