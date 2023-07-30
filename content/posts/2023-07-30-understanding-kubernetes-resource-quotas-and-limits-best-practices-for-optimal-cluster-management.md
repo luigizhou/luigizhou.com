@@ -3,7 +3,6 @@ title: "Understanding Kubernetes Resource Quotas and Limits: Best Practices for 
 description: ""
 date: 2023-07-30T16:56:56.499Z
 preview: ""
-draft: true
 tags: []
 categories: 
 - kubernetes
