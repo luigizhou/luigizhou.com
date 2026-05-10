@@ -1,40 +1,71 @@
 baseurl: 'https://www.luigizhou.com'
-title: Luigi Zhou's Blog on Linux, Kubernetes, Observability and more...
-theme: hugo-notepadium
-copyright: ©2023 - Luigi Zhou.
+title: Luigi Zhou
+theme: PaperMod
 languageCode: en-us
 hasCJKLanguage: true
 enableRobotsTXT: true
-disqusShortname: luigizhou-com
-googleAnalytics: UA-156067555-1
+paginate: 10
+
 markup:
   highlight:
     codeFences: true
     noClasses: false
+    style: dracula
   goldmark:
     renderer:
       unsafe: true
+
 params:
-  style: auto
-  dateFormat: 'Monday, January 2, 2006'
-  logo: /images/avatar.jpg
-  slogan: >-
-    Find me on <a href='https://www.linkedin.com/in/luigizhou/'
-    target='_blank'>Linkedin</a> or <a href='https://twitter.com/LuigiZhou'
-    target='_blank'>Twitter</a>
-  license: ''
-  comments:
-    enable: false
-  math:
-    enable: false
-    use: katex
-  syntax:
-    use: none
-    theme: dracula
-    darkTheme: xcode-dark
-  nav:
-    showCategories: true
-    showTags: true
-    custom:
-      - title: About
-        url: /about
+  env: production
+  author: Luigi Zhou
+  description: HPC Engineer writing about Kubernetes, Linux, Observability and high-performance computing.
+  keywords: [hpc, kubernetes, high performance computing, observability, linux, platform engineering]
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: false
+  disableScrollToTop: false
+
+  homeInfoParams:
+    Title: "Hi, I'm Luigi"
+    Content: >
+      HPC Engineer with extensive Kubernetes experience, working with Linux, Observability and high-performance computing.
+      Find me on [LinkedIn](https://www.linkedin.com/in/luigizhou/).
+
+  socialIcons:
+    - name: linkedin
+      url: https://www.linkedin.com/in/luigizhou/
+    - name: rss
+      url: /index.xml
+
+  assets:
+    favicon: /images/avatar.jpg
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 40
